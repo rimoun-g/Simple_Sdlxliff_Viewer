@@ -23,7 +23,7 @@ if $file <> "" AND StringLower(StringRight($file,8))= "sdlxliff" Then
 ; read file to array to get the first line to extract the information with regex
 
 ;read the last line only to extract segments
-		$lines = FileReadLine($file,-1)
+		$lines = $text[UBound($text) -1] 
 
 ; extract the original file
 if Ubound ($text) > 1 Then
