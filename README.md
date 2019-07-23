@@ -1,2 +1,3 @@
-# Simple_Sdlxliff_Viewer
-simple viewer to have a look of sdlxliff file
+# Simple Sdlxliff Viewer
+simple viewer to view **sdlxliff** files
+This example is built with Autoit
